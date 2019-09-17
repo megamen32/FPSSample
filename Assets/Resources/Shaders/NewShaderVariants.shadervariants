@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 74, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 0
+  - first: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_UI_ALPHACLIP
+        passType: 0
+  - first: {fileID: 15100, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+    second:
+      variants:
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 11
+      - keywords: _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 11
+      - keywords: _ALPHATEST_ON _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 11
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 12
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON _ALPHATEST_ON _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_NORMAL_BUFFER _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_NORMAL_BUFFER _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_NORMAL_BUFFER _ALPHATEST_ON _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT SHADOW_LOW USE_FPTL_LIGHTLIST _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON SHADOW_LOW USE_FPTL_LIGHTLIST _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON SHADOW_LOW USE_FPTL_LIGHTLIST _NORMALMAP
+          _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON SHADOW_LOW USE_FPTL_LIGHTLIST _ALPHATEST_ON
+          _NORMALMAP _NORMALMAP_TANGENT_SPACE
+        passType: 13
+  - first: {fileID: 4800000, guid: 2e37131331fbdca449b1a2bc47a639ca, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 035941b63024d1943af48811c1db20d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 3d1574f1cdfa0ce4995f9bc79ed7f8ec, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 42dfcc8fe803ece4096c58630689982f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 123ed592ad5c2494b8aed301fd609e7b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 32f724728cf19904291226f239ec16f0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ec63f47fd265df243a7b1d40f9ef7fe7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 123f13d52852ef547b2962de4bd9eaad, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 3b3bf235775cf8b4baae7f3306787ab0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d279c46a545b0af4f9f0c4fa82cd489e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a6402c19b020b4a4fb7073aaa2e26aba, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d850d0a2481878d4bbf17e5126b04163, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e3cab24f27741f44d8af1e94d006267c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fd532bf1795188c4daaa66ea798b8b0a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 33b7789160121444481f570133e7a629, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 0
+  - first: {fileID: 4800000, guid: 382151503e2a43a4ebb7366d1632731d, type: 3}
+    second:
+      variants:
+      - keywords: BLOOM COLOR_GRADING_HDR_3D FINALPASS
+        passType: 0
+  - first: {fileID: 4800000, guid: 51bcf79c50dc92e47ba87821b61100c3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6873dd7790bd8a042ba79bd562cd98b9, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 0
+  - first: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 81d02e8644315b742b154842a3a2f98c, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LAYER_INFLUENCE_MODE _NORMALMAP0 _NORMALMAP1 _NORMALMAP_TANGENT_SPACE0
+          _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+          _REQUIRE_UV2
+        passType: 8
+      - keywords: _MAIN_LAYER_INFLUENCE_MODE _NORMALMAP0 _NORMALMAP1 _NORMALMAP_TANGENT_SPACE0
+          _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+          _REQUIRE_UV2
+        passType: 11
+      - keywords: _MAIN_LAYER_INFLUENCE_MODE _NORMALMAP0 _NORMALMAP1 _NORMALMAP_TANGENT_SPACE0
+          _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+          _REQUIRE_UV2
+        passType: 13
+      - keywords: DECALS_4RT _MAIN_LAYER_INFLUENCE_MODE _NORMALMAP0 _NORMALMAP1 _NORMALMAP_TANGENT_SPACE0
+          _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+          _REQUIRE_UV2
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON _MAIN_LAYER_INFLUENCE_MODE _NORMALMAP0 _NORMALMAP1
+          _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2
+          _NORMALMAP_TANGENT_SPACE3 _REQUIRE_UV2
+        passType: 13
+      - keywords: WRITE_NORMAL_BUFFER _MAIN_LAYER_INFLUENCE_MODE _NORMALMAP0 _NORMALMAP1
+          _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2
+          _NORMALMAP_TANGENT_SPACE3 _REQUIRE_UV2
+        passType: 13
+      - keywords: DECALS_4RT SHADOW_LOW USE_FPTL_LIGHTLIST _MAIN_LAYER_INFLUENCE_MODE
+          _NORMALMAP0 _NORMALMAP1 _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _REQUIRE_UV2
+        passType: 13
+      - keywords: DECALS_4RT LIGHTMAP_ON SHADOW_LOW USE_FPTL_LIGHTLIST _MAIN_LAYER_INFLUENCE_MODE
+          _NORMALMAP0 _NORMALMAP1 _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1
+          _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3 _REQUIRE_UV2
+        passType: 13
+  - first: {fileID: 4800000, guid: c1e1d3119c6fd4646aea0b4b74cacc1a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: cdbdb71de5f9c454b980f6d0e87f0afb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e77d75abe795e9040a2f1c7a49576231, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 0
+  - first: {fileID: 4800000, guid: b52793709e82eb54695861286c7eb00e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 12
+      - keywords: DECALS_4RT SHADOWS_SHADOWMASK
+        passType: 13
+  - first: {fileID: 4800000, guid: 32aa4760018c4dc4d8789986cdbf0c78, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: d120d8416623b1345a2dc0b76c428729, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: d120d8416623b1345a2dc0b76c428729, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 05fe0f4543b2091478a893f71bd66a67, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 50d9d065de3bcc04782c5327839f56c8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 50d9d065de3bcc04782c5327839f56c8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 42a494dbad17fb94e826abdc6dcd4a24, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 42a494dbad17fb94e826abdc6dcd4a24, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 42a494dbad17fb94e826abdc6dcd4a24, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
