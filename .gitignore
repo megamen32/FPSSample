@@ -4,6 +4,8 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Aa]uto[Bb]uild/
+/server/
+/UIElementsSchema/
 
 .vscode/
 .vs/
@@ -22,3 +24,12 @@
 
 *.log
 *.pyc
+Models/Environment/Props/Rocks/Rock_Boulder_A/Rock_Boulder_A.fbm.meta
+Models/Environment/Props/Rocks/Rock_Boulder_A/Rock_Boulder_A.fbm/
+Plugins/Editor/JetBrains/
+Prefabs/DebugPrimitives.meta
+Resources/Shaders.meta
+Resources/Shaders/
+_Test/
+
+

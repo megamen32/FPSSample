@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using JetBrains.Annotations;
 
 namespace GraphVisualizer
 {
     public abstract class Graph : IEnumerable<Node>
     {
-        private readonly List<Node> m_Nodes = new List<Node>();
+     [NotNull]   private readonly List<Node> m_Nodes = new List<Node>();
 
         public ReadOnlyCollection<Node> nodes
         {
